@@ -1,0 +1,178 @@
+@media screen and (max-width: 991px){
+	.navbar ul.nav  li  a{
+		font-size: 11px;
+		padding: 15px 10px;
+	}
+	.tabs li, .sub-tabs li{
+		padding: 10px 16px;
+	}
+	.tabs li a, .sub-tabs li a{
+		font-size: 12px;
+		font-weight: normal;
+	}
+	.tabs{
+		margin-bottom: 0px;
+		
+	}
+	.pagination{
+		margin-top: 10px;
+		padding-bottom: 0;
+	}
+	ul.five-up li{
+		display: block;
+	}
+}
+@media screen and (max-width: 767px){
+	.bgtop{
+		height: 40px;
+	}
+	.container{
+		width: auto;
+		margin: 0 10px;
+	}
+	.bg{
+		padding: 0 10px 10px;
+	}
+	.nav-collapse{
+		width: 80%;
+		text-align: center;
+		display: inline-block;
+	}
+	.btn-toggle{
+		display: block;
+	}
+	ul.nav{
+		width: 100%;
+		display: none;
+		border-left: 1px solid #15395b;
+		border-right: 1px solid #15395b;
+		border-bottom: 1px solid #15395b;
+		margin: 0;
+	}
+	ul.nav li{
+		display: block;
+		border-top: 1px solid #15395b;
+		margin: 0;
+	}
+	.navbar ul.nav li a{
+		font-size: 14px;
+		color: #555555;
+		
+	}
+	ul.list-ct li:first-child {
+		border-top: 1px solid #4dbce9;
+	}
+	ul.list-ct li{
+		background-color: #eff3f9;
+		border-bottom: 1px solid #4dbce9;
+		color: #797979;
+		float: none;
+		height: auto;
+		margin: 0px;
+		padding: 10px 0;
+	}
+	ul.list-ct .st-title{
+		display: none;
+	}
+	ul.list-ct h3.char-title{
+		display: block;
+		text-align: left;
+		margin: 0 0 5px;
+	}
+	ul.list-ct .list-img{
+		float: left;
+		margin-right: 10px;
+		border: 1px solid #ccc;
+		border-radius: 3px;
+		padding: 1px;
+	}
+	ul.list-ct h4{
+		background: none;
+		font-size: 11px;
+		font-weight: bold;
+		height: 23px;
+		line-height: 20px;
+		margin: 0px;
+		text-align: left;
+		text-shadow: none;
+		width: auto;
+		border-top: none;
+	}
+	ul.list-ct .list-img > a > img{
+		width: 53px;
+		height: 53px;
+	}
+	#footer .botom{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	/* DETAIL */
+	.about-book img.img-detail{
+		width: 90px;
+		height: 120px;
+		margin-right: 10px;
+	}
+	.cont-detail h1{
+		font-size: 12px;
+	}
+	.cont-detail span{
+		font-size: 11px;
+		line-height: 0.5;
+	}
+	.cont-detail span a, .cont-detail span b{
+		font-size: 11px;
+		line-height: 0.5;
+	}
+	.tab-chapter h3.tab-title{
+		font-size: 14px;
+		background: none;
+		padding-left: 0;
+	}
+	.tab-chapter ul.five-up li{
+		background: none;
+		padding-left: 0;
+	}
+	ul.five-up li span.day-update{
+		display: none;
+	}
+	ul.five-up li a{
+		font-size: 12px;
+	}
+	.tab-title h2{
+		background: none;
+		font-size: 14px;
+		padding-left: 0;
+	}
+	.gridlistchapter table th{
+		font-size: 9px;
+	}
+	.gridlistchapter table .item-hide{
+		display: none;
+	}
+	.gridlistchapter table .item-show{
+		display: block;
+	}
+}
+@media screen and (max-width: 484px){
+	ul.tabs{
+		display: none;
+	}
+	.btn-toggle2{
+		display: block;
+	}
+	ul.tabs li{
+		display: block;
+		background-color: #00a4f3;
+		text-align: center;
+	}
+	ul.tabs li a{
+		color: #fff;
+	}
+	.main ul.list-sub li{
+		width: 50%;
+		padding: 0 2%;
+	}
+	.social{
+		display: none;
+	}
+}
